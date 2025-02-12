@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('assets/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu, #pelayanan, #kontak {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#pelayanan ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#pelayanan ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Gunakan font modern */
+}
+
+/* Warna utama */
+:root {
+    --background: #f5e8d0;  /* Krim lembut */
+    --text-primary: #4a3221; /* Coklat gelap (hangat) */
+    --text-secondary: #a67c52; /* Coklat susu */
+    --accent: #8b5e3b; /* Coklat kopi pekat */
+    --highlight: #d4a373; /* Kuning kecoklatan */
+}
+
+/* Gaya umum */
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    text-align: center;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: var(--accent);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid var(--highlight);
+}
+
+header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Navigasi */
+nav {
+    background: var(--highlight);
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: var(--accent);
+    color: var(--background);
+}
+
+/* Section */
+section {
+    padding: 40px 20px;
+}
+
+/* Menu */
+#menu {
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: var(--highlight);
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    background: var(--background);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 80%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+/* Pelayanan */
+#pelayanan ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pelayanan ul li {
+    background: var(--accent);
+    color: white;
+    padding: 12px;
+    margin: 8px auto;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Kontak */
+#kontak a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: bold;
+}
+
+#pesanBtn {
+    background: var(--highlight);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#pesanBtn:hover {
+    background: var(--accent);
+}
+
+/* Footer */
+footer {
+    background: var(--accent);
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+}
